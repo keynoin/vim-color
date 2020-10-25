@@ -9,11 +9,15 @@ hi Normal cterm=NONE
 hi Cursor cterm=NONE
 hi Comment ctermfg=239
 hi Conditional ctermfg=116
-hi Constant  ctermfg=10
+hi String ctermfg=82
+"hi Constant  ctermfg=10
 "Variable,Function
 hi Identifier ctermfg=202
-"Statement(for,if...)
-hi Statement ctermfg=87
 "Type(int,char...)
-hi Type=11
+hi Type ctermfg=11
+"Underline(URL...)
+hi UnderLined ctermfg=133
 
+"UI
+hi LineNr ctermfg=239
+hi CursorLineNr ctermfg=23
